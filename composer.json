@@ -1,0 +1,17 @@
+{
+    "name": "be_god/mys9ysilii",
+    "autoload": {
+        "psr-4": {
+            "BeGod\\Mys9ysilii\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mys9ysilii",
+            "email": "kdkdil@yandex.ru"
+        }
+    ],
+    "require": {
+        "twbs/bootstrap": "5.0.2"
+    }
+}
