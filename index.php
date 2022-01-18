@@ -1,7 +1,12 @@
 <?php
 require_once ('local/templates/.default/header.php');
 ?>
-<h2>body</h2>
+<div class="container">
+    <h2>body</h2>
+    <?php
+    require_once ('local/templates/components/people_comp/templates/.default/template.php');
+    ?>
+</div>
 <?php
 require_once ('local/templates/.default/footer.php');
 ?>
