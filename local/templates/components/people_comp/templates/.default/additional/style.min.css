@@ -1,1 +1,1 @@
-.people_cart_box{display:flex;flex-direction:row;justify-content:space-between}.people_cart_box .people_cart{padding:7px;border:2px solid #4fc3f7;border-radius:5px}
+.people_cart_box{display:flex;flex-direction:row;justify-content:flex-start}.people_cart_box .people_cart{padding:7px;border:2px solid #4fc3f7;border-radius:5px;margin-right:5px}.people_cart_box .people_cart:hover{cursor:pointer;box-shadow:4px 4px 10px 0 #4fc3f7}

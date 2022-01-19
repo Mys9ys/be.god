@@ -2,10 +2,16 @@
 .people_cart_box{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
+
   .people_cart{
     padding: 7px;
     border: 2px solid @border;
     border-radius: 5px;
+    margin-right: 5px;
+    &:hover{
+      cursor: pointer;
+      box-shadow: 4px 4px 10px 0px @border;
+    }
   }
 }
