@@ -20,7 +20,8 @@ $people = [
 function PeopleCart($chel){
     return  '
     <div class="people_cart">
-        <p>'.$chel["name"].'</p>
+        <p>Name: '.$chel["name"].'</p>
+        <p>$: '.$chel["money"].'</p>
     </div>
     ';
 }
