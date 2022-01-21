@@ -24,7 +24,7 @@
             <a class="nav-link" href="#">Город</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#" >Компании</a>
+            <a class="nav-link" href="/company" >Компании</a>
         </li>
     </ul>
     <h1>Header</h1>

@@ -1,0 +1,16 @@
+.company_cart_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.company_cart_box .company_cart {
+  padding: 7px;
+  border: 2px solid #4fc3f7;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.company_cart_box .company_cart:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 10px 0px #4fc3f7;
+}
+/*# sourceMappingURL=style.css.map */
