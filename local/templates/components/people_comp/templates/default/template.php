@@ -1,5 +1,6 @@
 <?php
 require_once "component_epilog.php";
+require_once "result_modifier.php";
 
 $people = [
         array("name"=>"aaa", "money"=>20, "city"=>"Tobikville"),
