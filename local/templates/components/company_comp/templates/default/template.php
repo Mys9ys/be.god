@@ -8,13 +8,16 @@ $companies = [
         array("name"=>"ВодПр", "money"=>20, "city"=>"Tobikville"),
 ]
 ?>
-<h1>company</h1>
-<div class="company_cart_box">
-    <?php
-    foreach ($companies as $company){?>
-        <?=companyCart($company);?>
-    <?}?>
+<div class="container">
+    <h1>company</h1>
+    <div class="company_cart_box">
+        <?php
+        foreach ($companies as $company){?>
+            <?=companyCart($company);?>
+        <?}?>
+    </div>
 </div>
+
 
 <?php
 function companyCart($company){
