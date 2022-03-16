@@ -4,14 +4,11 @@ namespace classes;
 
 class Human
 {
+    use Finance;
 
-    protected $test_params = 'test';
+    public $name;
 
-//    public function __constract(){
-//
-//    }
-
-    public function get(){
-        return $this->test_params;
+    public function setName($name){
+        $this->name = $name;
     }
 }

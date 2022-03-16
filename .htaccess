@@ -3,17 +3,9 @@ php_flag magic_quotes_gpc Off
 AddDefaultCharset utf-8
 
 DirectoryIndex index.php
-<<<<<<< HEAD
 
-RewriteEngine on
-
-RewriteCond %{REQUEST_FILENAME) !-f
-RewriteRule ^(.*) index.php
-=======
-#
 #RewriteEngine on
-#
+
 #RewriteCond %{REQUEST_FILENAME} !-f
-##RewriteCond %{REQUEST_FILENAME} !favicon.ico
-##RewriteRule ^(.*) index.php
->>>>>>> 50be374e3f605853678825def5985ccfa3f730c3
+#RewriteCond %{REQUEST_FILENAME} !favicon.ico
+#RewriteRule ^(.*) index.php
