@@ -18,6 +18,8 @@ class Model
                 . $this->bd->connect_errno . ' ' . $this->bd->connect_error);
         }
 
+        var_dump($this->bd);
+
         $res = $this->bd->query('SET NAMES UTF8');
 
     }

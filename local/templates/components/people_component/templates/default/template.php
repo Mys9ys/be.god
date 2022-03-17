@@ -1,9 +1,12 @@
 <?php
-require_once "component_epilog.php";
-require_once "result_modifier.php";
-require_once "classes/internal_settings.php";
 
 use classes\Human;
+
+require_once "component_epilog.php";
+require_once "result_modifier.php";
+
+
+
 
 $people = [
         array("name"=>"aaa", "money"=>20, "city"=>"Tobikville"),
@@ -20,16 +23,19 @@ print_debug($aaa);
 
 $bdCon = new \classes\Model();
 
-print_debug($bdCon->showTables());
+print_debug($bdCon->getConnect());
 ?>
-<h1>People</h1>
-<div class="people_cart_box">
-    <?php
-    foreach ($people as $chel){?>
-        <?=PeopleCart($chel);?>
-    <?}?>
+<div class="container">
 
-    <?=PeopleCartObj($aaa);?>
+    <h1>People</h1>
+    <div class="people_cart_box">
+        <?php
+        foreach ($people as $chel){?>
+            <?=PeopleCart($chel);?>
+        <?}?>
+
+        <?=PeopleCartObj($aaa);?>
+    </div>
 </div>
 
 <?php
