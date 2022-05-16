@@ -4,7 +4,7 @@ session_start();
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/config.php';
 require_once $_SERVER['DOCUMENT_ROOT'] . '/lib/functions.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/classes/internal_settings.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/classes/internal_settings.php'; 
 
 ?>
 <!DOCTYPE html>
