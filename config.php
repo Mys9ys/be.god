@@ -1,6 +1,6 @@
 <?php
 
-defined('VG_ACCESS') or die('Access denied');
+//defined('VG_ACCESS') or die('Access denied');
 
 const SITE_URL = '';
 const PATH = '/';

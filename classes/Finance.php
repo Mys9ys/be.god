@@ -6,19 +6,23 @@ trait Finance
 {
     protected $money;
 
-    public function countMoney(){
-        return self::money;
+    public function countMoney()
+    {
+        return $this->money;
     }
 
-    public function buy($sum){
-        self::money -=$sum;
+    public function buy($sum)
+    {
+        $this->money -= $sum;
     }
 
-    public function sale($sum){
-        self::money +=$sum;
+    public function sale($sum)
+    {
+        $this->money += $sum;
     }
 
-    public function setMoney($sum){
-        self::money =$sum;
+    public function setMoney($sum)
+    {
+        $this->money = $sum;
     }
 }

@@ -1,8 +1,8 @@
-RewriteEngine On
-RewriteBase /
+php_flag magic_quotes_gpc Off
 
-RewriteCond %{REQUEST_URI} !^/project/webroot/
-RewriteRule .+ index.php
+AddDefaultCharset utf-8
+
+DirectoryIndex index.php
 #
 #RewriteEngine on
 #
