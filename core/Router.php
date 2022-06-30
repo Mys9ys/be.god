@@ -5,6 +5,9 @@
 	{
 		public function getTrack($routes, $uri)
 		{
+
+            print_debug($routes);
+            print_debug($uri);
 			foreach ($routes as $route) {
 				$pattern = $this->createPattern($route->path); // см. описание метода
 				
