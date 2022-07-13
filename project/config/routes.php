@@ -19,6 +19,5 @@
 //        new Route('/product/:id/', 'product', 'show'),
 
         new Route('/',   'main', 'init'),
-
 	];
 	
